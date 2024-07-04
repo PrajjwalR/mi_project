@@ -85,8 +85,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
 }
-.cards-container {
+.first-cards-container {
   display: flex;
 }
 .card {
@@ -117,4 +118,17 @@
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+}
+
+.second-card-container {
+  margin-top: 20px;
+}
+.second-card-container img {
+  width: 68.4rem;
+  margin: auto;
+}
+
+.third-card-container {
+  margin-top: 20px;
+  display: flex;
 }
